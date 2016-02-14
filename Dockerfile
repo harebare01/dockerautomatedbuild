@@ -9,5 +9,5 @@ ENV https_proxy "http://proxy.unisys.co.jp:8080/"
 RUN mkdir /mynewfile
 RUN touch /mynewfile/mynewfile
 # Write message text
-RUN echo 'こんにちは、Docker イメージ' > /mynewfile/mynewfile
+RUN echo 'こんにちは1、Docker イメージ' > /mynewfile/mynewfile
 
